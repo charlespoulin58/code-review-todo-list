@@ -1,9 +1,0 @@
-# Local metadata files
-.DS_Store
-.vscode
-.env
-
-# Node packages
-node_modules
-
-.env
