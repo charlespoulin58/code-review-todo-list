@@ -4,17 +4,20 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const TaskSchema = new Schema({
-    date: {
-        type: Date,
-        default: Date.now,
-    },
-    task: {
+    name: {
         type: String,
         required: true
     },
+    date: {
+        type: Date,
+        default: Date.now(),
+    },
+    description: {
+        type: String
+    },
     isCompleted : {
         type: Boolean,
-        required: true
+        default: false
     }
 });
 
