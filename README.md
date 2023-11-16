@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 3. Install npm dependencies:
    npm install
 
-4. Set up the MongoDB connection in the `.env` file if necessary.
+4. Set up the MongoDB connection in the `.env` file if necessary. 
 
 ### Running the Application
 
@@ -105,7 +105,7 @@ Delete a task by ID function
 - `500`: Internal server error
 ## Tests
 
-I used Postman to test the API endpoints. I have provided the postman test scripts and test cases. Due to time constraints, I was unable to finish the test for the delete endpoint. These tests would need to be improved by testing the outcome in the actual database. Right now, I am only able to test the server responses and the code to see if the endpoint was successful. This could be done in Jest/Supertest, but due to time, I was unable to get this configured. This would take me an additional hour or two to figure out (I am unfamiliar with those technologies currently).
+I used Postman to test the API endpoints. I have provided the postman test scripts and test cases. Due to time constraints, I was unable to finish the test for the delete endpoint. These tests would need to be improved by testing the outcome in the actual database. Right now, I am only able to test the server responses and the code to see if the endpoint was successful. This could be done in Jest/Supertest, but due to time, I was unable to get this configured. This would take me an additional hour or two to figure out (I am unfamiliar with those technologies currently). NOTE: I beleive you would have to create a few documents first before testing all the endpoints. A quick way to do that is to naviagte to the POST endpoint and run it a few times to populate your test database. Then you can run the suite of tests.
 
 ### Running Postman Tests
 
